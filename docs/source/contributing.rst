@@ -3,13 +3,20 @@ Contributing
 ============
 This repo uses the `Git Branching Model <https://nvie.com/posts/a-successful-git-branching-model/>`_. The head of master branch should always be production ready. The head of the develop branch should contain the latest delivered development changes for the next release. Features should be created in feature branches that branch from the develop branch.
 
-Create virtualenv::
+Get the repo::
 
-    $ mkvirtualenv azul-dev
+    $ git clone https://github.com/brettelliot/jedgar.git
 
-Then get the repo::
+Make a virtual env::
 
-    $ git clone https://github.com/brettelliot/azul.git
+    $ cd jedgar
+    $ python -m venv .venv
+    $ source .venv/bin/activate
+
+Install the repo::
+    $ pip install -e .
+
+Or perhaps use this command:: 
     $ pip install -r requirements.txt
 
 Run the tests::
