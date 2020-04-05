@@ -11,6 +11,5 @@ Links
 -----
 - An `article with a good overview of Edgar
   <https://www.codeproject.com/Articles/1227268/Accessing-Financial-Reports-in-the-EDGAR-Database>`_
-- An `article showing how to parse XBLR with python
-<https://www.codeproject.com/Articles/1227765/Parsing-XBRL-with-Python>`_ 10-k with BS4
+- An `article showing how to parse XBLR with python <https://www.codeproject.com/Articles/1227765/Parsing-XBRL-with-Python>`_ 10-k with BS4
 
